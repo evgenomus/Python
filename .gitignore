@@ -1,0 +1,5 @@
+.settings
+/__pycache__
+*.xlsx
+*.dat
+*.DAT
