@@ -69,7 +69,8 @@ def check_time_sequence(time_current, time_last):
 ''' #MAIN
   * @brief  Чтение данных диагностики за один час
   * @param[in] adc_frame_count количество фреймов данных, которые нужно прочитать
-  * @return Словарь данных диагностики, 1800 значений каждого параметра
+  * @return Словарь данных диагностики, 1800 значений каждого параметра, время, затраченное на обработку
+  * @note Добавил возврат времени, чтобы в дальнейшем использовать его в GUI (позже может быть убрано)
 '''
 def main(adc_frame_count):
 	
@@ -124,7 +125,7 @@ def main(adc_frame_count):
 	
 	finish_datetime = datetime.now()
 	print('>__ Data analysis time is ' + str(finish_datetime - start_datetime))
-	return diag_frame_descr
+	return diag_frame_descr, finish_datetime - start_datetime
 
 if __name__ == '__main__':
 	main(ADC_FRAME_COUNT)
