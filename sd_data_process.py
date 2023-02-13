@@ -13,7 +13,7 @@ DATA_MINUTE_NUMBER = 5 # {1..60} Кол-во минут для преобраз�
 
 
 def func():
-	all_data_int = adc_parse.main(DATA_MINUTE_START * 30, DATA_MINUTE_NUMBER * 30) #number of 2-sec buffers, 1800 max.
+	all_data_int, t = adc_parse.main(DATA_MINUTE_START * 30, DATA_MINUTE_NUMBER * 30) #number of 2-sec buffers, 1800 max.
 
 	df = pd.DataFrame({
 		'ChannelX': all_data_int[0],
