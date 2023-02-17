@@ -1,0 +1,602 @@
+Send from COM:
+NewData 16:06:59
+Send from COM:
+NewData 16:07:09
+Send from COM:
+NewData 16:07:20
+Send from COM:
+NewData 16:07:30
+Send from COM:
+NewData 16:07:40
+Send from COM:
+NewData 16:07:50
+Send from COM:
+NewData 16:08:00
+Send from COM:
+NewData 16:08:10
+Send from COM:
+NewData 16:08:20
+Send from COM:
+NewData 16:08:30
+Send from COM:
+NewData 16:08:40
+Send from COM:
+NewData 16:08:50
+Send from COM:
+NewData 16:09:00
+Send from COM:
+NewData 16:09:10
+Send from COM:
+NewData 16:09:20
+Send from COM:
+NewData 16:09:30
+Send from COM:
+NewData 16:09:40
+Send from COM:
+NewData 16:09:50
+Send from COM:
+NewData 16:10:00
+Send from COM:
+NewData 16:10:10
+Send from COM:
+NewData 16:10:20
+Send from COM:
+NewData 16:10:30
+Send from COM:
+NewData 16:10:40
+Send from COM:
+NewData 16:10:50
+Send from COM:
+NewData 16:11:00
+Send from COM:
+NewData 16:11:10
+Send from COM:
+NewData 16:11:20
+Send from COM:
+NewData 16:11:30
+Send from COM:
+NewData 16:11:40
+Send from COM:
+NewData 16:11:50
+Send from COM:
+NewData 16:12:00
+Send from COM:
+NewData 16:12:10
+Send from COM:
+NewData 16:12:20
+Send from COM:
+NewData 16:12:30
+Send from COM:
+NewData 16:12:40
+Send from COM:
+NewData 16:12:50
+Send from COM:
+NewData 16:13:00
+Send from COM:
+NewData 16:13:10
+Send from COM:
+NewData 16:13:20
+Send from COM:
+NewData 16:14:11
+Send from COM:
+NewData 16:14:21
+Send from COM:
+NewData 16:14:31
+Send from COM:
+NewData 16:14:41
+Send from COM:
+NewData 16:14:51
+Send from COM:
+NewData 16:15:01
+Send from COM:
+NewData 16:15:11
+Send from COM:
+NewData 16:15:21
+Send from COM:
+NewData 16:15:31
+Send from COM:
+NewData 16:15:41
+Send from COM:
+NewData 16:15:51
+Send from COM:
+NewData 16:16:01
+Send from COM:
+NewData 16:16:11
+Send from COM:
+NewData 16:16:21
+Send from COM:
+NewData 16:16:31
+Send from COM:
+NewData 16:16:41
+Send from COM:
+NewData 16:16:51
+Send from COM:
+NewData 16:17:01
+Send from COM:
+NewData 16:17:11
+Send from COM:
+NewData 16:17:21
+Send from COM:
+NewData 16:17:31
+Send from COM:
+NewData 16:17:41
+Send from COM:
+NewData 16:17:51
+Send from COM:
+NewData 16:18:01
+Send from COM:
+NewData 16:18:11
+Send from COM:
+NewData 16:18:21
+Send from COM:
+NewData 16:18:31
+Send from COM:
+NewData 16:18:41
+Send from COM:
+NewData 16:18:51
+Send from COM:
+NewData 16:19:01
+Send from COM:
+NewData 16:19:11
+Send from COM:
+NewData 16:19:21
+Send from COM:
+NewData 16:19:31
+Send from COM:
+NewData 16:19:41
+Send from COM:
+NewData 16:19:51
+Send from COM:
+NewData 16:20:01
+Send from COM:
+NewData 16:20:11
+Send from COM:
+NewData 16:20:21
+Send from COM:
+NewData 16:20:31
+Send from COM:
+NewData 16:20:41
+Send from COM:
+NewData 16:20:51
+Send from COM:
+NewData 16:21:01
+Send from COM:
+NewData 16:21:11
+Send from COM:
+NewData 16:21:21
+Send from COM:
+NewData 16:21:31
+Send from COM:
+NewData 16:21:41
+Send from COM:
+NewData 16:21:51
+Send from COM:
+NewData 16:22:01
+Send from COM:
+NewData 16:22:11
+Send from COM:
+NewData 16:22:21
+Send from COM:
+NewData 16:22:31
+Send from COM:
+NewData 16:22:41
+Send from COM:
+NewData 16:22:51
+Send from COM:
+NewData 16:23:01
+Send from COM:
+NewData 16:23:11
+Send from COM:
+NewData 16:23:21
+Send from COM:
+NewData 16:23:31
+Send from COM:
+NewData 16:23:41
+Send from COM:
+NewData 16:23:51
+Send from COM:
+NewData 16:24:01
+Send from COM:
+NewData 16:24:11
+Send from COM:
+NewData 16:24:21
+Send from COM:
+NewData 16:24:31
+Send from COM:
+NewData 16:24:42
+Send from COM:
+NewData 16:27:29
+Send from COM:
+NewData 16:45:08
+Send from COM:
+NewData 16:45:18
+Send from COM:
+NewData 16:45:28
+Send from COM:
+NewData 16:45:38
+Send from COM:
+NewData 16:45:48
+Send from COM:
+NewData 16:45:58
+Send from COM:
+NewData 16:46:08
+Send from COM:
+NewData 16:46:18
+Send from COM:
+NewData 16:46:28
+Send from COM:
+NewData 16:46:38
+Send from COM:
+NewData 16:46:48
+Send from COM:
+NewData 16:46:58
+Send from COM:
+NewData 16:47:08
+Send from COM:
+NewData 16:47:18
+Send from COM:
+NewData 16:47:28
+Send from COM:
+NewData 16:47:38
+Send from COM:
+NewData 16:47:48
+Send from COM:
+NewData 16:47:58
+Send from COM:
+NewData 16:51:05
+Send from COM:
+NewData 16:51:43
+Send from COM:
+NewData 16:51:53
+Send from COM:
+NewData 16:52:03
+Send from COM:
+NewData 16:52:13
+Send from COM:
+NewData 16:52:23
+Send from COM:
+NewData 16:52:33
+Send from COM:
+NewData 16:52:43
+Send from COM:
+NewData 16:52:53
+Send from COM:
+NewData 16:53:03
+Send from COM:
+NewData 16:53:13
+Send from COM:
+NewData 16:53:23
+Send from COM:
+NewData 16:53:33
+Send from COM:
+NewData 16:53:43
+Send from COM:
+NewData 16:53:53
+Send from COM:
+NewData 16:54:03
+Send from COM:
+NewData 16:54:13
+Send from COM:
+NewData 16:54:23
+Send from COM:
+NewData 16:54:33
+Send from COM:
+NewData 16:54:43
+Send from COM:
+NewData 16:54:53
+Send from COM:
+NewData 16:55:04
+Send from COM:
+NewData 16:55:14
+Send from COM:
+NewData 16:55:24
+Send from COM:
+NewData 16:55:34
+Send from COM:
+NewData 16:55:44
+Send from COM:
+NewData 16:55:54
+Send from COM:
+NewData 16:56:04
+Send from COM:
+NewData 16:56:14
+Send from COM:
+NewData 16:56:24
+Send from COM:
+NewData 16:56:34
+Send from COM:
+NewData 16:56:44
+Send from COM:
+NewData 16:56:54
+Send from COM:
+NewData 16:57:04
+Send from COM:
+NewData 16:57:14
+Send from COM:
+NewData 16:57:24
+Send from COM:
+NewData 16:57:34
+Send from COM:
+NewData 16:57:44
+Send from COM:
+NewData 16:57:54
+Send from COM:
+NewData 16:58:04
+Send from COM:
+NewData 16:58:14
+Send from COM:
+NewData 16:58:24
+Send from COM:
+NewData 16:58:34
+Send from COM:
+NewData 16:58:44
+Send from COM:
+NewData 16:58:54
+Send from COM:
+NewData 16:59:04
+Send from COM:
+NewData 16:59:14
+Send from COM:
+NewData 16:59:24
+Send from COM:
+NewData 16:59:34
+Send from COM:
+NewData 16:59:44
+Send from COM:
+NewData 16:59:54
+Send from COM:
+NewData 17:00:04
+Send from COM:
+NewData 17:00:14
+Send from COM:
+NewData 17:00:24
+Send from COM:
+NewData 17:00:34
+Send from COM:
+NewData 17:00:44
+Send from COM:
+NewData 17:00:54
+Send from COM:
+NewData 17:01:04
+Send from COM:
+NewData 17:01:15
+Send from COM:
+NewData 17:01:25
+Send from COM:
+NewData 17:01:35
+Send from COM:
+NewData 17:01:45
+Send from COM:
+NewData 17:01:55
+Send from COM:
+NewData 17:02:05
+Send from COM:
+NewData 17:02:15
+Send from COM:
+NewData 17:02:25
+Send from COM:
+NewData 17:02:35
+Send from COM:
+NewData 17:02:45
+Send from COM:
+NewData 17:02:55
+Send from COM:
+NewData 17:03:05
+Send from COM:
+NewData 17:03:15
+Send from COM:
+NewData 17:03:25
+Send from COM:
+NewData 17:03:35
+Send from COM:
+NewData 17:03:45
+Send from COM:
+NewData 17:03:55
+Send from COM:
+NewData 17:04:05
+Send from COM:
+NewData 17:04:15
+Send from COM:
+NewData 17:04:25
+Send from COM:
+NewData 17:04:35
+Send from COM:
+NewData 17:04:45
+Send from COM:
+NewData 17:04:55
+Send from COM:
+NewData 17:05:05
+Send from COM:
+NewData 17:05:15
+Send from COM:
+NewData 17:05:25
+Send from COM:
+NewData 17:05:35
+Send from COM:
+NewData 17:05:45
+Send from COM:
+NewData 17:05:55
+Send from COM:
+NewData 17:06:05
+Send from COM:
+NewData 17:06:15
+Send from COM:
+NewData 17:06:25
+Send from COM:
+NewData 17:06:35
+Send from COM:
+NewData 17:06:45
+Send from COM:
+NewData 17:06:55
+Send from COM:
+NewData 17:07:05
+Send from COM:
+NewData 17:07:15
+Send from COM:
+NewData 17:07:25
+Send from COM:
+NewData 17:07:35
+Send from COM:
+NewData 17:07:46
+Send from COM:
+NewData 17:07:56
+Send from COM:
+NewData 17:08:06
+Send from COM:
+NewData 17:08:16
+Send from COM:
+NewData 17:08:26
+Send from COM:
+NewData 17:08:36
+Send from COM:
+NewData 17:08:46
+Send from COM:
+NewData 17:08:56
+Send from COM:
+NewData 17:09:06
+Send from COM:
+NewData 17:09:16
+Send from COM:
+NewData 17:09:26
+Send from COM:
+NewData 17:09:36
+Send from COM:
+NewData 17:09:46
+Send from COM:
+NewData 17:09:56
+Send from COM:
+NewData 17:10:06
+Send from COM:
+NewData 17:10:16
+Send from COM:
+NewData 17:10:26
+Send from COM:
+NewData 17:10:36
+Send from COM:
+NewData 17:10:46
+Send from COM:
+NewData 17:10:56
+Send from COM:
+NewData 17:11:06
+Send from COM:
+NewData 17:11:16
+Send from COM:
+NewData 17:11:26
+Send from COM:
+NewData 17:11:36
+Send from COM:
+NewData 17:11:46
+Send from COM:
+NewData 17:11:56
+Send from COM:
+NewData 17:12:06
+Send from COM:
+NewData 17:12:16
+Send from COM:
+NewData 17:12:26
+Send from COM:
+NewData 17:12:36
+Send from COM:
+NewData 17:12:46
+Send from COM:
+NewData 17:12:56
+Send from COM:
+NewData 17:13:06
+Send from COM:
+NewData 14:51:16
+Send from COM:
+NewData 14:51:26
+Send from COM:
+NewData 14:51:36
+Send from COM:
+NewData 14:51:46
+Send from COM:
+NewData 14:51:56
+Send from COM:
+NewData 14:52:06
+Send from COM:
+NewData 14:52:16
+Send from COM:
+NewData 14:52:26
+Send from COM:
+NewData 14:52:36
+Send from COM:
+NewData 14:52:46
+Send from COM:
+	 17     NewData 17:20:01
+Send from COM:
+	 17     NewData 17:20:11
+Send from COM:
+	 17     NewData 17:20:21
+Send from COM:
+	 17     NewData 17:20:31
+Send from COM:
+	 17     NewData 17:20:42
+Send from COM:
+	 17     NewData 17:20:52
+Send from COM:
+	 17     NewData 17:21:02
+Send from COM:
+	 17     NewData 17:21:12
+Send from COM:
+	 17     NewData 17:21:22
+Send from COM:
+	 17     NewData 17:21:32
+Send from COM:
+	 17     NewData 17:36:20
+Send from COM:
+	 17     NewData 17:36:30
+Send from COM:
+	 17     NewData 17:36:40
+Send from COM:
+	 17     NewData 17:36:50
+Send from COM:
+	 17     NewData 17:37:00
+Send from COM:
+	 17     NewData 17:37:10
+Send from COM:
+	 17     NewData 17:37:21
+Send from COM:
+	 17     NewData 17:37:31
+Send from COM:
+	 17     NewData 17:37:41
+Send from COM:
+	 17     NewData 17:37:51
+Send from COM:
+	 17     NewData 17:38:01
+Send from COM:
+	 17     NewData 17:38:11
+Send from COM:
+	 17     NewData 17:38:21
+Send from COM:
+	 17     NewData 17:38:31
+Send from COM:
+	 17     NewData 17:38:41
+Send from COM:
+	 17     NewData 17:38:51
+Send from COM:
+	 17     NewData 17:39:01
+Send from COM:
+	 17     NewData 17:39:11
+Send from COM:
+	 17     NewData 17:39:21
+Send from COM:
+	 17     NewData 17:39:31
+Send from COM:
+	 17     NewData 16:05:53
+Send from COM:
+	 17     NewData 16:06:03
+Send from COM:
+	 17     NewData 16:06:13
+Send from COM:
+	 17     NewData 16:06:23
+Send from COM:
+	 17     NewData 16:06:33
+Send from COM:
+	 17     NewData 16:06:43
+Send from COM:
+	 17     NewData 16:06:53
+Send from COM:
+	 17     NewData 16:07:03
+Send from COM:
+	 17     NewData 16:07:13
