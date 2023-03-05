@@ -13,6 +13,8 @@ ADC_DATA_WIDTH = 4 # Разрядность данных АЦП
 CHECK_CRC = True # Выполнять проверку CRC каждого фрейма или нет (существенно влияет на время выполнения программы)
 CHECK_TIME = True # Выполнять проверку временных меток каждого фрейма или нет
 
+elapsedTime = 0
+
 all_data_int = [
 	[], [], []
 ]
@@ -86,6 +88,7 @@ def main(adc_frame_start, adc_frame_count):
 	Param[in] *adc_frame_start* номер фрейма данных, с которого начинается чтение \n
 	Param[in] *adc_frame_count* количество фреймов данных, которые нужно прочитать \n
 	Return [[], [], []] Список данных АЦП для каждого из каналов, макс. 2048*1800 чисел для одного канала \n
+	Return *elapsedTime* Значения затраченного времени
 	> Диапазон значений отсчета АЦП: {-2^23...+2^23-1} \n
 	'''
 	ADC_FILENAMES = ['CH0.DAT', 'CH1.DAT', 'CH2.DAT']
@@ -132,8 +135,10 @@ def main(adc_frame_start, adc_frame_count):
 		adc_files[file_idx].close()
 	
 	finish_datetime = datetime.now()
+	elapsedTime = finish_datetime - start_datetime
 	print('>__ Data analysis time is ' + str(finish_datetime - start_datetime))
-	return all_data_int
+	return all_data_int, elapsedTime
+
 
 if __name__ == '__main__':
 	main(ADC_FRAME_START, ADC_FRAME_NUMBER)

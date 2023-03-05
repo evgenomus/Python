@@ -143,7 +143,7 @@ diag_parse    </h1>
 </span><span id="L-72"><a href="#L-72"><span class="linenos"> 72</span></a><span class="w">	</span><span class="sd">&#39;&#39;&#39; #MAIN</span>
 </span><span id="L-73"><a href="#L-73"><span class="linenos"> 73</span></a><span class="sd">	Brief Чтение данных диагностики за один час \n</span>
 </span><span id="L-74"><a href="#L-74"><span class="linenos"> 74</span></a><span class="sd">	Param[in] *adc_frame_count* количество фреймов данных, которые нужно прочитать \n</span>
-</span><span id="L-75"><a href="#L-75"><span class="linenos"> 75</span></a><span class="sd">	Return Словарь данных диагностики, 1800 значений каждого параметра \n</span>
+</span><span id="L-75"><a href="#L-75"><span class="linenos"> 75</span></a><span class="sd">	Return Словарь данных диагностики, 1800 значений каждого параметра, время, затраченное на обработку \n</span>
 </span><span id="L-76"><a href="#L-76"><span class="linenos"> 76</span></a><span class="sd">	&#39;&#39;&#39;</span>
 </span><span id="L-77"><a href="#L-77"><span class="linenos"> 77</span></a>	<span class="n">DIAG_FILENAME</span> <span class="o">=</span> <span class="s1">&#39;DIAG.DAT&#39;</span>
 </span><span id="L-78"><a href="#L-78"><span class="linenos"> 78</span></a>	<span class="n">diag_files</span> <span class="o">=</span> <span class="p">[]</span>
@@ -196,7 +196,7 @@ diag_parse    </h1>
 </span><span id="L-125"><a href="#L-125"><span class="linenos">125</span></a>	
 </span><span id="L-126"><a href="#L-126"><span class="linenos">126</span></a>	<span class="n">finish_datetime</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
 </span><span id="L-127"><a href="#L-127"><span class="linenos">127</span></a>	<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&gt;__ Data analysis time is &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">finish_datetime</span> <span class="o">-</span> <span class="n">start_datetime</span><span class="p">))</span>
-</span><span id="L-128"><a href="#L-128"><span class="linenos">128</span></a>	<span class="k">return</span> <span class="n">diag_frame_descr</span>
+</span><span id="L-128"><a href="#L-128"><span class="linenos">128</span></a>	<span class="k">return</span> <span class="n">diag_frame_descr</span><span class="p">,</span> <span class="n">finish_datetime</span> <span class="o">-</span> <span class="n">start_datetime</span>
 </span><span id="L-129"><a href="#L-129"><span class="linenos">129</span></a>
 </span><span id="L-130"><a href="#L-130"><span class="linenos">130</span></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
 </span><span id="L-131"><a href="#L-131"><span class="linenos">131</span></a>	<span class="n">main</span><span class="p">(</span><span class="n">ADC_FRAME_COUNT</span><span class="p">)</span>
@@ -316,7 +316,7 @@ diag_parse    </h1>
 </span><span id="main-73"><a href="#main-73"><span class="linenos"> 73</span></a><span class="w">	</span><span class="sd">&#39;&#39;&#39; #MAIN</span>
 </span><span id="main-74"><a href="#main-74"><span class="linenos"> 74</span></a><span class="sd">	Brief Чтение данных диагностики за один час \n</span>
 </span><span id="main-75"><a href="#main-75"><span class="linenos"> 75</span></a><span class="sd">	Param[in] *adc_frame_count* количество фреймов данных, которые нужно прочитать \n</span>
-</span><span id="main-76"><a href="#main-76"><span class="linenos"> 76</span></a><span class="sd">	Return Словарь данных диагностики, 1800 значений каждого параметра \n</span>
+</span><span id="main-76"><a href="#main-76"><span class="linenos"> 76</span></a><span class="sd">	Return Словарь данных диагностики, 1800 значений каждого параметра, время, затраченное на обработку \n</span>
 </span><span id="main-77"><a href="#main-77"><span class="linenos"> 77</span></a><span class="sd">	&#39;&#39;&#39;</span>
 </span><span id="main-78"><a href="#main-78"><span class="linenos"> 78</span></a>	<span class="n">DIAG_FILENAME</span> <span class="o">=</span> <span class="s1">&#39;DIAG.DAT&#39;</span>
 </span><span id="main-79"><a href="#main-79"><span class="linenos"> 79</span></a>	<span class="n">diag_files</span> <span class="o">=</span> <span class="p">[]</span>
@@ -369,7 +369,7 @@ diag_parse    </h1>
 </span><span id="main-126"><a href="#main-126"><span class="linenos">126</span></a>	
 </span><span id="main-127"><a href="#main-127"><span class="linenos">127</span></a>	<span class="n">finish_datetime</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
 </span><span id="main-128"><a href="#main-128"><span class="linenos">128</span></a>	<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&gt;__ Data analysis time is &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">finish_datetime</span> <span class="o">-</span> <span class="n">start_datetime</span><span class="p">))</span>
-</span><span id="main-129"><a href="#main-129"><span class="linenos">129</span></a>	<span class="k">return</span> <span class="n">diag_frame_descr</span>
+</span><span id="main-129"><a href="#main-129"><span class="linenos">129</span></a>	<span class="k">return</span> <span class="n">diag_frame_descr</span><span class="p">,</span> <span class="n">finish_datetime</span> <span class="o">-</span> <span class="n">start_datetime</span>
 </span></pre></div>
 
 
@@ -379,7 +379,7 @@ diag_parse    </h1>
 
 <p>Param[in] <em>adc_frame_count</em> количество фреймов данных, которые нужно прочитать </p>
 
-<p>Return Словарь данных диагностики, 1800 значений каждого параметра</p>
+<p>Return Словарь данных диагностики, 1800 значений каждого параметра, время, затраченное на обработку</p>
 </div>
 
 

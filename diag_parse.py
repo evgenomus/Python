@@ -72,7 +72,7 @@ def main(adc_frame_count):
 	''' #MAIN
 	Brief Чтение данных диагностики за один час \n
 	Param[in] *adc_frame_count* количество фреймов данных, которые нужно прочитать \n
-	Return Словарь данных диагностики, 1800 значений каждого параметра \n
+	Return Словарь данных диагностики, 1800 значений каждого параметра, время, затраченное на обработку \n
 	'''
 	DIAG_FILENAME = 'DIAG.DAT'
 	diag_files = []
@@ -125,7 +125,7 @@ def main(adc_frame_count):
 	
 	finish_datetime = datetime.now()
 	print('>__ Data analysis time is ' + str(finish_datetime - start_datetime))
-	return diag_frame_descr
+	return diag_frame_descr, finish_datetime - start_datetime
 
 if __name__ == '__main__':
 	main(ADC_FRAME_COUNT)
