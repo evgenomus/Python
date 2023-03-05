@@ -1,4 +1,6 @@
+'''
 # Преобразование форматов времени
+'''
 fat_time_offs = {
 	'sec': 1,
 	'min': 5,
@@ -16,8 +18,12 @@ fat_time_mask = {
 	'year': 0xFE000000,
 }
 
-# Преобразование временной метки из uint32_t в словарь со значениями секунд, минут, и т.д.
 def convert_from_fattime(time_buffer):
+	'''
+	Brief Преобразование временной метки из uint32_t в словарь со значениями секунд, минут, и т.д. \n
+	Param[in] *time_buffer* временная метка в формате FAT_TIME \n
+	Return Временная метка в формате словаря с секундами, минутами, и т.д. \n
+	'''
 	timestamp_int = int.from_bytes(time_buffer, byteorder = 'little', signed = False)
 
 	timestamp = {
@@ -37,9 +43,12 @@ def convert_from_fattime(time_buffer):
 
 	return timestamp
 	
-# Преобразование временной метки из словаря со значениями секунд, минут, и т.д. - в значение uint32_t (FAT_TIME format)
 def convert_to_fattime(timestamp):
-
+	'''
+	Brief Преобразование временной метки из словаря со значениями секунд, минут, и т.д. - в значение uint32_t (FAT_TIME format) \n
+	Param[in] *timestamp* временная метка в формате словаря с секундами, минутами, и т.д. \n
+	Return Временная метка в формате FAT_TIME \n
+	'''
 	fattime = 0
 	fattime = fattime | ((timestamp['sec'] >> fat_time_offs['sec']) & fat_time_mask['sec'])
 	fattime = fattime | ((timestamp['min'] << fat_time_offs['min']) & fat_time_mask['min'])

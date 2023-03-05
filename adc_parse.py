@@ -1,4 +1,6 @@
-# Чтение и проверка данных АЦП с SD карты
+'''
+## Чтение и проверка данных АЦП с SD карты
+'''
 from crccheck.crc import Crc32Mpeg2
 from datetime import datetime
 import fattime
@@ -21,13 +23,13 @@ date_time_max = {
 	'hour': 23,
 }
 
-'''
-	* @brief  Преобразование данных АЦП и проверка контрольной суммы
-	* @param[in] input_file файл для чтения данных
-	* @param[in] channel_index индекс канала АЦП
-	* @return Вычисленное значение CRC
-'''
 def adc_frame_analysis_fast(input_file, channel_index):
+	'''
+	Brief Преобразование данных АЦП и проверка контрольной суммы \n
+	Param[in] *input_file* файл для чтения данных \n
+	Param[in] *channel_index* индекс канала АЦП \n
+	Return Вычисленное значение CRC \n
+	'''
 	# Вычисление CRC по данным АЦП, с измением порядка байт
 	adc_data = bytearray(input_file.read(ADC_SAMPLE_NUMBER * ADC_DATA_WIDTH))
 	for sample_idx in range(0, ADC_SAMPLE_NUMBER):
@@ -47,13 +49,13 @@ def adc_frame_analysis_fast(input_file, channel_index):
 	else:
 		return 0
 
-'''
-	* @brief  Проверка последовательности временных меток
-	* @param[in] time_current текущая временная метка
-	* @param[in] time_last прошлая временная метка
-	* @return Статус ошибки
-'''
 def check_time_sequence(time_current, time_last):
+	'''
+	Brief Проверка последовательности временных меток \n
+	Param[in] *time_current* текущая временная метка \n
+	Param[in] *time_last* прошлая временная метка \n
+	Return Статус ошибки \n
+	'''
 	min_decrement = False
 	sequence_error = False
 	last_frame_time_calc = {
@@ -78,15 +80,14 @@ def check_time_sequence(time_current, time_last):
 		sequence_error = True
 	return sequence_error
 
-''' #MAIN
-	* @brief  Чтение бинарных данных АЦП всех каналов измерения за один час
-	* @param[in] adc_frame_start номер фрейма данных, с которого начинается чтение
-	* @param[in] adc_frame_count количество фреймов данных, которые нужно прочитать
-	* @return [[], [], []] Список данных АЦП для каждого из каналов, макс. 2048*1800 чисел для одного канала
-	* @note Диапазон значений отсчета АЦП: {-2^23...+2^23-1}
-'''
 def main(adc_frame_start, adc_frame_count):
-	
+	''' #MAIN \n
+	Brief  Чтение бинарных данных АЦП всех каналов измерения за один час \n
+	Param[in] *adc_frame_start* номер фрейма данных, с которого начинается чтение \n
+	Param[in] *adc_frame_count* количество фреймов данных, которые нужно прочитать \n
+	Return [[], [], []] Список данных АЦП для каждого из каналов, макс. 2048*1800 чисел для одного канала \n
+	> Диапазон значений отсчета АЦП: {-2^23...+2^23-1} \n
+	'''
 	ADC_FILENAMES = ['CH0.DAT', 'CH1.DAT', 'CH2.DAT']
 	adc_files = []
 	if adc_frame_count > ADC_FRAME_NUMBER:

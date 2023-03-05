@@ -1,4 +1,6 @@
-# Чтение и проверка данных диагностики с SD карты
+'''
+## Чтение и проверка данных диагностики с SD карты
+'''
 import os, io, shutil, json, array, zlib, fattime
 from crccheck.crc import Crc32Mpeg2
 from datetime import datetime
@@ -15,12 +17,12 @@ date_time_max = {
 	'hour': 23,
 }
 
-'''
-	* @brief  Преобразование данных диагностики и проверка контрольной суммы
-	* @param[in] input_file файл для чтения данных
-	* @return Вычисленное значение CRC
-'''
 def diag_frame_analysis_fast(input_file):
+	'''
+	Brief Преобразование данных диагностики и проверка контрольной суммы \n
+	Param[in] *input_file* файл для чтения данных \n
+	Return Вычисленное значение CRC \n
+	'''
 	# Вычисление CRC по данным диагностики, с измением порядка байт
 	diag_data = bytearray(input_file.read(DIAGNOSTICS_DATA_COUNT * DIAG_DATA_WIDTH))
 	for sample_idx in range(0, DIAGNOSTICS_DATA_COUNT):
@@ -35,13 +37,13 @@ def diag_frame_analysis_fast(input_file):
 	else:
 		return 0
 
-'''
-	* @brief  Проверка последовательности временных меток
-	* @param[in] time_current текущая временная метка
-	* @param[in] time_last прошлая временная метка
-	* @return Статус ошибки
-'''
 def check_time_sequence(time_current, time_last):
+	'''
+	Brief Проверка последовательности временных меток \n
+	Param[in] *time_current* текущая временная метка \n
+	Param[in] *time_last* прошлая временная метка \n
+	Return Статус ошибки \n
+	'''
 	min_decrement = False
 	sequence_error = False
 	last_frame_time_calc = {
@@ -66,13 +68,12 @@ def check_time_sequence(time_current, time_last):
 		sequence_error = True
 	return sequence_error
 
-''' #MAIN
-  * @brief  Чтение данных диагностики за один час
-  * @param[in] adc_frame_count количество фреймов данных, которые нужно прочитать
-  * @return Словарь данных диагностики, 1800 значений каждого параметра
-'''
 def main(adc_frame_count):
-	
+	''' #MAIN
+	Brief Чтение данных диагностики за один час \n
+	Param[in] *adc_frame_count* количество фреймов данных, которые нужно прочитать \n
+	Return Словарь данных диагностики, 1800 значений каждого параметра \n
+	'''
 	DIAG_FILENAME = 'DIAG.DAT'
 	diag_files = []
 	if adc_frame_count > ADC_FRAME_COUNT:

@@ -1,4 +1,6 @@
-# Конвертация данных SD карты в Excel
+'''
+## Конвертация данных SD карты в Excel. Вызов функций модулей adc_parse и diag_parse, пример работы с данными.
+'''
 import pandas as pd
 import adc_parse, diag_parse, json
 from datetime import datetime
